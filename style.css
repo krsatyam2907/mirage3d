@@ -78,7 +78,7 @@ Your Trusted Partner in Construction and Building Solutions
         .logo-container {
             display: flex;
             align-items: center;
-            gap: 12px;
+            gap: 15px;
             text-decoration: none;
             cursor: pointer;
             transition: transform 0.3s ease;
@@ -103,7 +103,7 @@ Your Trusted Partner in Construction and Building Solutions
 
         /* Logo Image Option */
         .logo-image {
-            height: 50px;
+            height: 80px;
             width: auto;
             max-width: 200px;
             object-fit: contain;
@@ -121,6 +121,38 @@ Your Trusted Partner in Construction and Building Solutions
             font-weight: 600;
             letter-spacing: 1px;
         }
+
+        .company-name-wrapper {
+            display: flex;
+            flex-direction: column;
+            line-height: 1.1;
+          }
+          
+          .company-name {
+            font-size: 28px;
+            font-weight: bold;
+            color: #2b4ea2; /* Blue */
+          }
+          
+          .company-subtext {
+            font-size: 14px;
+            font-weight: bold;
+            color: #d71920; /* Red */
+          }
+          
+          /* Responsive: shrink subtitle on small screens */
+          @media (max-width: 767px) {
+            .company-subtext {
+              font-size: 10px;   /* smaller size */
+              font-weight: normal; /* less bold */
+              color: #d71920cc;   /* slightly transparent red */
+            }
+          
+            .company-name {
+              font-size: 24px;
+            }
+          }
+          
 
         .main-menu {
             display: flex;
