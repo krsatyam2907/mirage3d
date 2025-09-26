@@ -1,50 +1,79 @@
-# Mirage Lake - Building Metal Construction Industry LLC Website
+# HTML
 
-This is a responsive website template for Mirage Lake Bldg Metal Const Ind. LLC, showcasing services, contact information, and a 3D coverflow gallery.
+A modern HTML project utilizing Tailwind CSS for building responsive web applications with minimal setup.
 
-## Features
+## 🚀 Features
 
-- Modern, responsive design
-- 3D coverflow image gallery
-- Services and contact sections
-- Social media integration
-- Scroll-to-top button
-- Easy navigation
+- **HTML5** - Modern HTML structure with best practices
+- **Tailwind CSS** - Utility-first CSS framework for rapid UI development
+- **Custom Components** - Pre-built component classes for buttons and containers
+- **NPM Scripts** - Easy-to-use commands for development and building
+- **Responsive Design** - Mobile-first approach for all screen sizes
 
-## Project Structure
+## 📋 Prerequisites
 
-├── images/
-│   ├── logo.png
-│   ├── Commercial Construction Project.jpg
-│   ├── Door Solutions Project.jpg
-│   ├── Facade Systems Installation.jpg
-│   ├── Glass and Enclosure Systems.jpg
-│   ├── Handrails and Balustrades.jpg
-│   ├── Outdoor Structures and Pergolas.jpg
-│   └── Project Excellence Showcase.jpg
-├── index.html
-├── style.css
-├── main.js
-└── README.md
+- Node.js (v12.x or higher)
+- npm or yarn
+
+## 🛠️ Installation
+
+1. Install dependencies:
+```bash
+npm install
+# or
+yarn install
+```
+
+2. Start the development server:
+```bash
+npm run dev
+# or
+yarn dev
+```
+
+## 📁 Project Structure
+
+```
+html_app/
+├── css/
+│   ├── tailwind.css   # Tailwind source file with custom utilities
+│   └── main.css       # Compiled CSS (generated)
+├── pages/             # HTML pages
+├── index.html         # Main entry point
+├── package.json       # Project dependencies and scripts
+└── tailwind.config.js # Tailwind CSS configuration
+```
+
+## 🎨 Styling
+
+This project uses Tailwind CSS for styling. Custom utility classes include:
 
 
-## Setup
+## 🧩 Customization
 
-1. Clone or download the project files.
-2. Open `index.html` in your browser to view the website.
-3. Place your company logo as `images/logo.png` for it to appear in the header.
+To customize the Tailwind configuration, edit the `tailwind.config.js` file:
 
-## Customization
 
-- **Images:** Replace images in the `images/` folder to update the gallery.
-- **Logo:** Update `images/logo.png` for your company logo.
-- **Styles:** Modify `style.css` for custom styles.
-- **Scripts:** Update `main.js` for custom JavaScript functionality.
+## 📦 Build for Production
 
-## Contact
+Build the CSS for production:
 
-For any queries, contact: info@mirage-lake.org
+```bash
+npm run build:css
+# or
+yarn build:css
+```
 
----
+## 📱 Responsive Design
 
-© 2025 Mirage Lake Bldg Metal Const Ind. LLC. All rights reserved.
+The app is built with responsive design using Tailwind CSS breakpoints:
+
+- `sm`: 640px and up
+- `md`: 768px and up
+- `lg`: 1024px and up
+- `xl`: 1280px and up
+- `2xl`: 1536px and up
+
+## 🙏 Acknowledgments
+
+
